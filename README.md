@@ -8,6 +8,8 @@ This project brings together core concepts such as IP addressing, routing, firew
 
 The final result is a live website served from my own EC2 instance and accessed through my personal domain.
 
+All supporting screenshots are available in the /screenshots folder.
+
 **Live Website:**  
 http://pietrodevops.uk  
 
