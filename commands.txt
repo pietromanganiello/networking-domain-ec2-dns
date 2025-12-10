@@ -1,0 +1,17 @@
+# SSH connection to EC2 instance
+ssh -i pietro-ec2-key.pem ec2-user@51.21.202.133
+
+# Update system packages
+sudo yum update -y
+
+# Install NGINX web server
+sudo yum install -y nginx
+
+# Enable NGINX to start on boot
+sudo systemctl enable nginx
+
+# Start NGINX service
+sudo systemctl start nginx
+
+# Check NGINX service status
+sudo systemctl status nginx
