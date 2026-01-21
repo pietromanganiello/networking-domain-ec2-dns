@@ -16,6 +16,10 @@ http://pietrodevops.uk
 **Direct EC2 Access:**  
 http://51.21.202.133  
 
+**Note:**  
+The EC2 instance is currently **stopped** to avoid unnecessary cloud costs.  
+The links above were live and fully functional during project validation and are included here to demonstrate the completed end-to-end setup.
+
 ---
 
 ## Architecture
@@ -67,13 +71,24 @@ NGINX Web Server (Amazon Linux 2023)
 
 ## Proof of Work
 
-Screenshots inside the `screenshots` folder show:
+The following screenshots demonstrate:
 
-- EC2 instance running  
-- Security group rules allowing SSH and HTTP  
-- NGINX running via public IP  
-- Domain successfully loading NGINX homepage  
-- Cloudflare DNS A record configuration  
+- EC2 instance running
+  ![EC2 Instance](screenshots/01-ec2-instance.png)
+
+- Security group rules allowing SSH and HTTP
+![Security Group](screenshots/02-security-group.png)
+
+- NGINX running via public IP
+![NGINX IP](screenshots/03-nginx-via-ip.png)
+
+- Domain successfully loading NGINX homepage
+![NGINX Domain](screenshots/04-nginx-via-domain.png)
+
+- Cloudflare DNS A record configuration
+![Cloudflare DNS](screenshots/05-cloudflare-dns.png)
+
+
 
 ---
 
