@@ -74,18 +74,26 @@ NGINX Web Server (Amazon Linux 2023)
 The following screenshots demonstrate:
 
 - EC2 instance running
+
   ![EC2 Instance](screenshots/01-ec2-instance.png)
 
+
 - Security group rules allowing SSH and HTTP
+  
 ![Security Group](screenshots/02-security-group.png)
 
 - NGINX running via public IP
+
+  
 ![NGINX IP](screenshots/03-nginx-via-ip.png)
 
 - Domain successfully loading NGINX homepage
+  
 ![NGINX Domain](screenshots/04-nginx-via-domain.png)
 
+
 - Cloudflare DNS A record configuration
+  
 ![Cloudflare DNS](screenshots/05-cloudflare-dns.png)
 
 
